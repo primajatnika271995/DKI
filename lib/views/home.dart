@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
 
   Widget _getUpperLayer() {
     return Container(
-      decoration: BoxDecoration(color: Colors.white),
+      decoration: BoxDecoration(color: Colors.grey[50]),
       child: ListView.builder(
           physics: NeverScrollableScrollPhysics(),
           controller: _scrollController,
